@@ -1,0 +1,8 @@
+source;share/Carcar/hook/cmake_prefix_path.ps1
+source;share/Carcar/hook/cmake_prefix_path.dsv
+source;share/Carcar/hook/cmake_prefix_path.sh
+source;share/Carcar/local_setup.bash
+source;share/Carcar/local_setup.dsv
+source;share/Carcar/local_setup.ps1
+source;share/Carcar/local_setup.sh
+source;share/Carcar/local_setup.zsh

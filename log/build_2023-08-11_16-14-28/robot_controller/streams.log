@@ -1,0 +1,21 @@
+[0.886s] Invoking command in '/home/sck2n21-laptop/dev_ws/src/robot_controller': PYTHONPATH=/home/sck2n21-laptop/dev_ws/build/robot_controller/prefix_override:/home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/sck2n21-laptop/dev_ws/build/robot_controller/build install --record /home/sck2n21-laptop/dev_ws/build/robot_controller/install.log --single-version-externally-managed
+[1.237s] running egg_info
+[1.237s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[1.238s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[1.238s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[1.238s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[1.239s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[1.242s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.243s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.243s] running build
+[1.243s] running build_py
+[1.244s] running install
+[1.244s] running install_lib
+[1.246s] running install_data
+[1.246s] running install_egg_info
+[1.248s] removing '/home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.250s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[1.260s] running install_scripts
+[1.284s] Installing host script to /home/sck2n21-laptop/dev_ws/install/robot_controller/lib/robot_controller
+[1.284s] writing list of installed files to '/home/sck2n21-laptop/dev_ws/build/robot_controller/install.log'
+[1.311s] Invoked command in '/home/sck2n21-laptop/dev_ws/src/robot_controller' returned '0': PYTHONPATH=/home/sck2n21-laptop/dev_ws/build/robot_controller/prefix_override:/home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/sck2n21-laptop/dev_ws/build/robot_controller/build install --record /home/sck2n21-laptop/dev_ws/build/robot_controller/install.log --single-version-externally-managed

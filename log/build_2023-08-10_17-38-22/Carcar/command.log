@@ -1,0 +1,6 @@
+Invoking command in '/home/sck2n21-laptop/dev_ws/build/Carcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sck2n21-laptop/dev_ws/src/Carcar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sck2n21-laptop/dev_ws/install/Carcar
+Invoked command in '/home/sck2n21-laptop/dev_ws/build/Carcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sck2n21-laptop/dev_ws/src/Carcar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sck2n21-laptop/dev_ws/install/Carcar
+Invoking command in '/home/sck2n21-laptop/dev_ws/build/Carcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sck2n21-laptop/dev_ws/build/Carcar -- -j16 -l16
+Invoked command in '/home/sck2n21-laptop/dev_ws/build/Carcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sck2n21-laptop/dev_ws/build/Carcar -- -j16 -l16
+Invoking command in '/home/sck2n21-laptop/dev_ws/build/Carcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sck2n21-laptop/dev_ws/build/Carcar
+Invoked command in '/home/sck2n21-laptop/dev_ws/build/Carcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sck2n21-laptop/dev_ws/build/Carcar

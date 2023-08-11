@@ -1,0 +1,35 @@
+[1.686s] Invoking command in '/home/sck2n21-laptop/dev_ws/src/robot_controller': PYTHONPATH=/home/sck2n21-laptop/dev_ws/build/robot_controller/prefix_override:/home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/sck2n21-laptop/dev_ws/build/robot_controller/build install --record /home/sck2n21-laptop/dev_ws/build/robot_controller/install.log --single-version-externally-managed
+[2.048s] running egg_info
+[2.049s] creating ../../build/robot_controller/robot_controller.egg-info
+[2.049s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[2.052s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[2.052s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[2.054s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[2.055s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[2.056s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.059s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.061s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.061s] running build
+[2.061s] running build_py
+[2.061s] creating /home/sck2n21-laptop/dev_ws/build/robot_controller/build
+[2.062s] creating /home/sck2n21-laptop/dev_ws/build/robot_controller/build/lib
+[2.062s] creating /home/sck2n21-laptop/dev_ws/build/robot_controller/build/lib/robot_controller
+[2.062s] copying robot_controller/__init__.py -> /home/sck2n21-laptop/dev_ws/build/robot_controller/build/lib/robot_controller
+[2.064s] running install
+[2.073s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.073s]   warnings.warn(
+[2.073s] running install_lib
+[2.075s] creating /home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[2.076s] copying /home/sck2n21-laptop/dev_ws/build/robot_controller/build/lib/robot_controller/__init__.py -> /home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[2.077s] byte-compiling /home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py to __init__.cpython-310.pyc
+[2.079s] running install_data
+[2.080s] creating /home/sck2n21-laptop/dev_ws/install/robot_controller/share/ament_index
+[2.080s] creating /home/sck2n21-laptop/dev_ws/install/robot_controller/share/ament_index/resource_index
+[2.080s] creating /home/sck2n21-laptop/dev_ws/install/robot_controller/share/ament_index/resource_index/packages
+[2.081s] copying resource/robot_controller -> /home/sck2n21-laptop/dev_ws/install/robot_controller/share/ament_index/resource_index/packages
+[2.081s] copying package.xml -> /home/sck2n21-laptop/dev_ws/install/robot_controller/share/robot_controller
+[2.082s] running install_egg_info
+[2.085s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[2.096s] running install_scripts
+[2.121s] writing list of installed files to '/home/sck2n21-laptop/dev_ws/build/robot_controller/install.log'
+[2.147s] Invoked command in '/home/sck2n21-laptop/dev_ws/src/robot_controller' returned '0': PYTHONPATH=/home/sck2n21-laptop/dev_ws/build/robot_controller/prefix_override:/home/sck2n21-laptop/dev_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/sck2n21-laptop/dev_ws/build/robot_controller/build install --record /home/sck2n21-laptop/dev_ws/build/robot_controller/install.log --single-version-externally-managed

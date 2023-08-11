@@ -1,0 +1,3 @@
+[console_scripts]
+host = robot_controller.keyboard_controller_node:main
+
