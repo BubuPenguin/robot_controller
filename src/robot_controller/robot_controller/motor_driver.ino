@@ -21,6 +21,9 @@ void setup() {
 }
 
 void loop() {
+  analogWrite (enA, SPEED);
+  analogWrite (enB, SPEED);
+
   if (Serial.available() > 0) {
     char command = Serial.read();
 

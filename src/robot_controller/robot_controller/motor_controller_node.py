@@ -13,13 +13,13 @@ class MotorControllerNode(Node):
         self.get_logger().info('Motor Controller node initialized')
 
         self.command_sub = self.create_subscription(
-            str,
+            String,
             'motor_command',
             self.command_callback,
             10
         )
 
-    def command_callback(self, msg):
+    def command_callback(self, msg: String):
         self.control_motor(msg.data)
         print(f'Pressed key: {msg.data}')
 
