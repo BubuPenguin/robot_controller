@@ -3,11 +3,12 @@
 import rclpy
 from rclpy.node import Node
 import serial
+from std_msgs.msg import String
 
 class MotorControllerNode(Node):
     def __init__(self):
         super().__init__('motor_controller')
-        self.ser = serial.Serial('/dev/ttyACM0', 9600)  # Change the port as needed
+        self.ser = serial.Serial('/dev/ttyUSB0', 9600)  # Change the port as needed
 
         self.get_logger().info('Motor Controller node initialized')
 
@@ -19,14 +20,12 @@ class MotorControllerNode(Node):
         )
 
     def command_callback(self, msg):
-        if msg.data in ['W', 'A', 'S', 'D', ' ']:
-            self.control_motor(msg.data)
-        else:
-            self.get_logger().warn('Invalid command: %s', msg.data)
+        self.control_motor(msg.data)
+        print(f'Pressed key: {msg.data}')
 
     def control_motor(self, command):
         self.ser.write(command.encode())
-        self.get_logger().info('Sent command: %s', command)
+        #print(f'Sending data: {command}')
 
 def main(args=None):
     rclpy.init(args=args)
